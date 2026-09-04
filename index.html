@@ -1,154 +1,21 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ecodry – Estética Automotiva Premium na Tijuca. 20+ anos de experiência. Martelinho de Ouro, Vitrificação, Polimento, Lavagem Ecológica. Agende pelo WhatsApp.">
-  <meta name="theme-color" content="#0d47a1">
-  <title>Ecodry – Estética Automotiva Premium na Tijuca | 20 Anos de Excelência</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="header" role="banner">
-    <div class="container header__inner">
-      <a href="/" class="logo" aria-label="Ecodry - Início">
-        <svg class="logo__icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-          <circle cx="24" cy="24" r="22" stroke="#0d47a1" stroke-width="2"/>
-          <path d="M24 12 C24 12 36 16 36 24 C36 32 24 36 24 36 C24 36 12 32 12 24 C12 16 24 12 24 12" stroke="#0d47a1" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="24" cy="24" r="6" fill="#0d47a1"/>
-        </svg>
-        <span class="logo__text">Ecodry</span>
-      </a>
-      <nav class="nav" aria-label="Navegação principal">
-        <a href="#servicos" class="nav__link">Serviços</a>
-        <a href="#sobre" class="nav__link">Sobre</a>
-        <a href="#depoimentos" class="nav__link">Depoimentos</a>
-        <a href="#contato" class="nav__link">Contato</a>
-      </nav>
-      <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+um+servi%C3%A7o+na+Ecodry!" class="btn btn--primary header__cta" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-13.83 6.51L3 19l1.44-4.12A8.5 8.5 0 1 1 21 11.5z"/></svg>
-        Agendar agora
-      </a>
-      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
-        <span class="hamburger"></span>
-      </button>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" id="hero" aria-labelledby="hero-title">
-      <div class="hero__bg" aria-hidden="true"></div>
-      <div class="container hero__inner">
-        <div class="hero__content">
-          <span class="hero__badge">+20 anos na Tijuca</span>
-          <h1 id="hero-title" class="hero__title">Seu carro <span class="highlight">merece brilhar</span></h1>
-          <p class="hero__subtitle">Estética automotiva premium na Tijuca, RJ. Do martelinho de ouro à vitrificação cerâmica — cuidamos do seu carro como se fosse nosso.</p>
-          <div class="hero__stats">
-            <div class="stat"><strong>20+</strong><span>Anos de mercado</span></div>
-            <div class="stat"><strong>5⭐</strong><span>Google Reviews</span></div>
-            <div class="stat"><strong>Mesmo dia</strong><span>Entrega rápida</span></div>
-            <div class="stat"><strong>9H</strong><span>Proteção cerâmica</span></div>
-          </div>
-          <div class="hero__actions">
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+um+servi%C3%A7o+na+Ecodry!" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-13.83 6.51L3 19l1.44-4.12A8.5 8.5 0 1 1 21 11.5z"/></svg>
-              Agendar pelo WhatsApp
-            </a>
-            <a href="tel:+5521985210457" class="btn btn--outline btn--lg">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              Ligar: (21) 98521-0457
-            </a>
-          </div>
-          <p class="hero__trust">Orçamento gratuito • Sem compromisso • Resultado garantido</p>
-        </div>
-        <div class="hero__image">
-          <img src="images/hero-ecodry.jpg" alt="Ecodry Estética Automotiva - Carro brilhando na Tijuca" class="hero__img" loading="eager">
-        </div>
-      </div>
-    </section>
-
-    <section class="servicos" id="servicos" aria-labelledby="servicos-title">
-      <div class="container">
-        <header class="section-header">
-          <h2 id="servicos-title" class="section-title">Todos os serviços</h2>
-          <p class="section-subtitle">Especialistas em cada detalhe do seu veículo</p>
-        </header>
-        <div class="servicos__grid">
-          <article class="servico">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><path d="M14 24 C14 24 18 18 24 18 C30 18 34 24 34 24"/><path d="M14 24 C14 24 18 30 24 30 C30 30 34 24 34 24"/><circle cx="24" cy="24" r="8"/></svg>
-            </div>
-            <h3 class="servico__title">Martelinho de Ouro</h3>
-            <p class="servico__desc">Elimina amassados sem repintura, preservando a pintura original. Resultado no mesmo dia.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Martelinho+de+Ouro+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
+</div>
+            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Limpeza+do+Motor+na+Ecodry!" class="servico-row__cta" target="_blank" rel="noopener" aria-label="Agendar Limpeza do Motor">→</a>
           </article>
-          <article class="servico">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><path d="M12 36 L12 18 M12 18 L18 12 M12 18 L6 12"/><path d="M36 36 L36 18 M36 18 L30 12 M36 18 L42 12"/><line x1="18" y1="24" x2="30" y2="24"/></svg>
+          <article class="servico-row">
+            <span class="servico-row__num">08</span>
+            <div class="servico-row__body">
+              <h3 class="servico-row__title">Oxi-sanitização</h3>
+              <p class="servico-row__desc">Elimina fungos, ácaros e odores do interior. Ar limpo e saudável para sua família.</p>
             </div>
-            <h3 class="servico__title">Lavagem Ecológica</h3>
-            <p class="servico__desc">Limpeza profunda com mínimo consumo de água. Tecnologia sustentável que preserva a pintura.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Lavagem+Ecol%C3%B3gica+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
+            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Oxi-sanitiza%C3%A7%C3%A3o+na+Ecodry!" class="servico-row__cta" target="_blank" rel="noopener" aria-label="Agendar Oxi-sanitização">→</a>
           </article>
-          <article class="servico">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><circle cx="24" cy="24" r="16"/><path d="M24 14 v20 M14 24 h20"/></svg>
+          <article class="servico-row">
+            <span class="servico-row__num">09</span>
+            <div class="servico-row__body">
+              <h3 class="servico-row__title">Limpeza do Ar-condicionado</h3>
+              <p class="servico-row__desc">Higienização completa do sistema de climatização. Elimina bactérias e mau cheiro.</p>
             </div>
-            <h3 class="servico__title">Polimentos Especiais</h3>
-            <p class="servico__desc">Revitaliza a pintura, remove riscos finos e oxidação. Brilho de showroom garantido.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Polimento+Especial+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
-          </article>
-          <article class="servico servico--destaque">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><path d="M14 34 L24 14 L34 34"/><path d="M14 34 L24 22 L34 34"/></svg>
-            </div>
-            <span class="servico__tag">Mais procurado</span>
-            <h3 class="servico__title">Vitrificação Cerâmica 9H</h3>
-            <p class="servico__desc">Proteção cerâmica 9H contra UV, chuva ácida e riscos. Brilho duradouro de 1 a 2 anos.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Vitrifica%C3%A7%C3%A3o+Cer%C3%A2mica+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
-          </article>
-          <article class="servico">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><path d="M12 16 L36 16 M12 24 L36 24 M12 32 L36 32"/></svg>
-            </div>
-            <h3 class="servico__title">Hidratação de Bancos</h3>
-            <p class="servico__desc">Tratamento profissional para couro e tecido. Elimina manchas, odores e previne o desgaste.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Hidrata%C3%A7%C3%A3o+de+Bancos+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
-          </article>
-          <article class="servico">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><circle cx="24" cy="24" r="10"/><path d="M24 14 v20 M14 24 h20"/></svg>
-            </div>
-            <h3 class="servico__title">Pequenos Reparos</h3>
-            <p class="servico__desc">Micropintura e lanternagem para riscos e danos. Acabamento que parece saído de fábrica.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Pequenos+Reparos+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
-          </article>
-          <article class="servico">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><rect x="12" y="18" width="24" height="18" rx="3"/><path d="M24 18 v18 M12 24 h24"/></svg>
-            </div>
-            <h3 class="servico__title">Limpeza do Motor</h3>
-            <p class="servico__desc">Limpeza técnica que protege componentes sensíveis e facilita diagnósticos.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Limpeza+do+Motor+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
-          </article>
-          <article class="servico">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><path d="M24 14 L20 34 L28 34 Z"/><path d="M20 34 L16 34 M28 34 L32 34"/></svg>
-            </div>
-            <h3 class="servico__title">Oxi-sanitização</h3>
-            <p class="servico__desc">Elimina fungos, ácaros e odores do interior. Ar limpo e saudável para sua família.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Oxi-sanitiza%C3%A7%C3%A3o+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
-          </article>
-          <article class="servico">
-            <div class="servico__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none" stroke="#0d47a1" stroke-width="1.5"><path d="M14 18 L34 18 M14 26 L34 26 M14 34 L34 34"/><path d="M24 18 v16"/></svg>
-            </div>
-            <h3 class="servico__title">Limpeza do Ar-condicionado</h3>
-            <p class="servico__desc">Higienização completa do sistema de climatização. Elimina bactérias e mau cheiro.</p>
-            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Limpeza+Ar+Condicionado+na+Ecodry!" class="servico__link" target="_blank" rel="noopener">Agendar <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></a>
+            <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+Limpeza+Ar+Condicionado+na+Ecodry!" class="servico-row__cta" target="_blank" target="_blank" rel="noopener" aria-label="Agendar Limpeza do Ar-condicionado">→</a>
           </article>
         </div>
       </div>
@@ -159,7 +26,7 @@
         <div class="sobre__content">
           <header class="section-header">
             <span class="section-tag">Quem somos</span>
-            <h2 id="sobre-title" class="section-title">Referência em estética na Tijuca há 20 anos</h2>
+            <h2 id="sobre-title" class="section-title">Referência na Tijuca há 20 anos</h2>
           </header>
           <p class="sobre__text">A Ecodry nasceu com um compromisso simples: tratar cada carro com o mesmo cuidado que o dono tem por ele. Ao longo de duas décadas construímos uma reputação de excelência técnica, honestidade e resultado garantido.</p>
           <p class="sobre__text">Estamos na Rua Felipe Camarão, 122 — no coração da Tijuca, RJ. Atendemos de segunda a sexta, das 08h às 18h.</p>
@@ -221,11 +88,9 @@
           <p class="cta__text">Orçamento gratuito. Sem compromisso. Resultado garantido.</p>
           <div class="cta__actions">
             <a href="https://wa.me/5521985210457?text=Ol%C3%A1%2C+quero+agendar+um+servi%C3%A7o+na+Ecodry!" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-13.83 6.51L3 19l1.44-4.12A8.5 8.5 0 1 1 21 11.5z"/></svg>
               Agendar pelo WhatsApp agora
             </a>
             <a href="tel:+5521985210457" class="btn btn--light btn--lg">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               Ligar: (21) 98521-0457
             </a>
           </div>
@@ -241,12 +106,8 @@
     <div class="container footer__inner">
       <div class="footer__brand">
         <a href="/" class="logo" aria-label="Ecodry - Início">
-          <svg class="logo__icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-            <circle cx="24" cy="24" r="22" stroke="#fff" stroke-width="2"/>
-            <path d="M24 12 C24 12 36 16 36 24 C36 32 24 36 24 36 C24 36 12 32 12 24 C12 16 24 12 24 12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="24" cy="24" r="6" fill="#fff"/>
-          </svg>
-          <span class="logo__text">Ecodry</span>
+          <span class="logo__mark">E</span>
+          <span class="logo__text">ECODRY</span>
         </a>
         <p class="footer__tagline">Estética automotiva premium na Tijuca desde 2004</p>
       </div>

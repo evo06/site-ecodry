@@ -22,11 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.querySelector('.header');
   window.addEventListener('scroll', () => {
     if (!header) return;
-    if (window.scrollY > 10) {
-      header.classList.add('header--scrolled');
-    } else {
-      header.classList.remove('header--scrolled');
-    }
+    if (window.scrollY > 10) header.classList.add('header--scrolled');
+    else header.classList.remove('header--scrolled');
   });
 
   // Fade-in ao rolar
@@ -39,5 +36,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.1 });
 
-  document.querySelectorAll('.servico, .depoimento').forEach(el => observer.observe(el));
+  document.querySelectorAll('.servico-row, .depoimento, .faq-item').forEach(el => observer.observe(el));
 });
